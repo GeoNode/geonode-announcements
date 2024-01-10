@@ -2,7 +2,7 @@ from django.conf import settings
 from django.db import models
 from django.urls import reverse
 from django.utils import timezone
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 # support custom user models in django 1.7+
 # https://docs.djangoproject.com/en/1.7/topics/auth/customizing/#substituting-a-custom-user-model
